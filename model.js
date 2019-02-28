@@ -8,7 +8,7 @@ const flightSchema = new mongoose.Schema({
   destination: String,
   distance: Number,
   carbonFootprint: Number,
-  //treesToOffset: Array
+  treesToOffset: Array
 })
 
 const Flight = mongoose.model('Flight', flightSchema);
